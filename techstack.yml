@@ -1,0 +1,604 @@
+repo_name: gujarat-titans/ReactiveUI
+report_id: 9249f79baa5b618f0a979879497d7671
+repo_type: Public
+timestamp: '2023-11-09T11:23:49+00:00'
+requested_by: glennawatson
+provider: github
+branch: main
+detected_tools_count: 45
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 1.2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: integrationtests/IntegrationTests.Android/IntegrationTests.Android.csproj
+  detection_source: src/ReactiveUI.TestRunner.Android/ReactiveUI.TestRunner.Android.csproj
+  last_updated_by: Geoffrey Huntley
+  last_updated_on: 2018-08-12 19:21:15.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: integrationtests/IntegrationTests.Android/IntegrationTests.Android.csproj
+  detection_source: src/ReactiveUI.TestRunner.Android/ReactiveUI.TestRunner.Android.csproj
+  last_updated_by: Geoffrey Huntley
+  last_updated_on: 2018-08-12 19:21:15.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: src/ReactiveUI.XamForms.Tests/ReactiveUI.XamForms.Tests.csproj
+  detection_source: src/ReactiveUI.XamForms.Tests/ReactiveUI.XamForms.Tests.csproj
+  last_updated_by: Rastislav Novotný
+  last_updated_on: 2020-10-19 06:38:16.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: integrationtests/IntegrationTests.XamarinForms/IntegrationTests.XamarinForms.csproj
+  detection_source: src/ReactiveUI.XamForms.Tests/ReactiveUI.XamForms.Tests.csproj
+  last_updated_by: Rastislav Novotný
+  last_updated_on: 2020-10-19 06:38:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Naveen
+  last_updated_on: 2022-05-01 10:00:10.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Tim Clem
+  last_updated_on: 2011-12-12 23:38:52.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  detection_source: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  last_updated_by: Geoffrey Huntley
+  last_updated_on: 2018-08-12 19:21:15.000000000 Z
+- name: BenchmarkDotNet
+  description: Powerful .NET library for benchmarking
+  package_url: https://www.nuget.org/BenchmarkDotNet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14365/default_90e7ce697521dd13e8eb643d3771c2a0e4e6d561.png
+  detection_source: src/Benchmarks/ReactiveUI.Benchmarks.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-04 02:29:37.000000000 Z
+- name: DynamicData
+  description: Bring the power of Rx to collections using Dynamic Data
+  package_url: https://www.nuget.org/DynamicData
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15221/default_29e541be75f868d66d50a01789bf097063dd1bcb.png
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Glenn Watson
+  last_updated_on: 2018-11-21 02:28:39.000000000 Z
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 6.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  detection_source: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-04 04:16:35.000000000 Z
+- name: Fody
+  description: Extensible tool for weaving .net assemblies
+  package_url: https://www.nuget.org/Fody
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13073/default_0af6f5844ebd9062a9a4895d909753dc8447f2f3.png
+  detection_source_url: src/ReactiveUI.Fody.Helpers/ReactiveUI.Fody.Helpers.csproj
+  detection_source: src/ReactiveUI.Fody.Helpers/ReactiveUI.Fody.Helpers.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-07 04:22:54.000000000 Z
+- name: FodyHelpers
+  description: Helpers for Fody
+  package_url: https://www.nuget.org/FodyHelpers
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14726/default_aa4f6010d69f3d5eff22d73ab5e3af27438b014c.png
+  detection_source_url: src/ReactiveUI.Fody/ReactiveUI.Fody.csproj
+  detection_source: src/ReactiveUI.Fody/ReactiveUI.Fody.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-02 18:30:50.000000000 Z
+- name: MahApps.Metro
+  description: The goal of MahApps.Metro is to allow devs to quickly and easily cobble
+    together a 'Modern' UI for their WPF apps
+  package_url: https://www.nuget.org/MahApps.Metro
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13364/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source: integrationtests/IntegrationTests.WPF/IntegrationTests.WPF.csproj
+  last_updated_by: Glenn Watson
+  last_updated_on: 2020-12-16 01:11:54.000000000 Z
+- name: Microsoft.AspNetCore.Components
+  description: Components feature for ASP.NET Core
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Components
+  version: 3.1.32
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13166/default_b4059c3863f54504d1a911991b5fe93c60e9e43e.png
+  detection_source_url: src/ReactiveUI.Blazor/ReactiveUI.Blazor.csproj
+  detection_source: src/ReactiveUI.Blazor/ReactiveUI.Blazor.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-10 06:20:46.000000000 Z
+- name: Microsoft.CodeAnalysis.Analyzers
+  description: Analyzers for consumers of Microsoft.CodeAnalysis NuGet package, i.e
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.Analyzers
+  version: 3.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13342/default_a8c5a9d917d12544e0591a4182335d690601b375.png
+  detection_source_url: src/ReactiveUI.Fody.Analyzer.Test/ReactiveUI.Fody.Analyzer.Tests.csproj
+  detection_source: src/ReactiveUI.Fody.Analyzer/ReactiveUI.Fody.Analyzer.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-01 14:19:57.000000000 Z
+- name: Microsoft.CodeAnalysis.CSharp.Workspaces
+  description: ".NET Compiler Platform"
+  package_url: https://www.nuget.org/Microsoft.CodeAnalysis.CSharp.Workspaces
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13136/default_8ec8443385d582f19f93b79f0dcf69f422e58967.png
+  detection_source_url: src/ReactiveUI.Fody.Analyzer.Test/ReactiveUI.Fody.Analyzer.Tests.csproj
+  detection_source: src/ReactiveUI.Fody.Analyzer/ReactiveUI.Fody.Analyzer.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-01 14:19:57.000000000 Z
+- name: Microsoft.Win32.Primitives
+  description: Provides common types for Win32-based libraries
+  package_url: https://www.nuget.org/Microsoft.Win32.Primitives
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13149/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Rafael Gomez
+  last_updated_on: 2019-10-02 23:55:41.000000000 Z
+- name: Microsoft.Xaml.Behaviors.Wpf
+  description: Easily add interactivity to your apps using XAML Behaviors for WPF
+  package_url: https://www.nuget.org/Microsoft.Xaml.Behaviors.Wpf
+  version: 1.1.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13927/default_7ea5c5f37ab58d37bb544de46c10fa9855b0ccd9.png
+  detection_source_url: src/ReactiveUI.Blend/ReactiveUI.Blend.csproj
+  detection_source: src/ReactiveUI.Blend/ReactiveUI.Blend.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-11-30 00:38:06.000000000 Z
+- name: Splat
+  description: A library to make things cross-platform that should be
+  package_url: https://www.nuget.org/Splat
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13292/default_0e6336285a2ac0713cff413264705f5aa2f348a1.png
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-02 00:07:56.000000000 Z
+- name: System.Collections
+  description: Provides classes that define generic collections
+  package_url: https://www.nuget.org/System.Collections
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12855/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-15 04:11:28.000000000 Z
+- name: System.Collections.Immutable
+  description: This package provides collections that are thread safe and guaranteed
+    to never change their contents, also known as immutable collections
+  package_url: https://www.nuget.org/System.Collections.Immutable
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12881/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: src/ReactiveUI.Fody.Analyzer/ReactiveUI.Fody.Analyzer.csproj
+  detection_source: src/ReactiveUI.Fody.Analyzer/ReactiveUI.Fody.Analyzer.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-11-24 09:30:44.000000000 Z
+- name: System.ComponentModel
+  description: Provides interfaces for the editing and change tracking of objects
+    used as data sources
+  package_url: https://www.nuget.org/System.ComponentModel
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12963/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Glenn
+  last_updated_on: 2022-04-11 01:51:21.000000000 Z
+- name: System.Diagnostics.Contracts
+  description: Provides static classes for representing program contracts such as
+    preconditions, postconditions, and invariants
+  package_url: https://www.nuget.org/System.Diagnostics.Contracts
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13069/default_a420a6b9076a7e051ae42f91031e323b7fdb478d.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.Diagnostics.Debug
+  description: Provides classes and attributes that allows basic interaction with
+    a debugger
+  package_url: https://www.nuget.org/System.Diagnostics.Debug
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12887/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.Diagnostics.Tracing
+  description: Provides class that enable you to create high performance tracing events
+    to be captured by event tracing for Windows
+  package_url: https://www.nuget.org/System.Diagnostics.Tracing
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13072/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.Dynamic.Runtime
+  description: Provides classes and interfaces that support the Dynamic Language Runtime
+  package_url: https://www.nuget.org/System.Dynamic.Runtime
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12921/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.IO.FileSystem
+  description: Provides types that allow reading and writing to files and types that
+    provide basic file and directory support
+  package_url: https://www.nuget.org/System.IO.FileSystem
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12931/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.IO.FileSystem.Primitives
+  description: Provides common enumerations and exceptions for path-based I/O libraries
+  package_url: https://www.nuget.org/System.IO.FileSystem.Primitives
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13111/default_623cfb3f5700f77ec1aadc91de41d13f3aa2ae3d.png
+  detection_source_url: src/ReactiveUI.Tests/ReactiveUI.Tests.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: System.Net.Primitives
+  description: Provides common types for network-based libraries, including System.Net.IPAddress,
+    System.Net.IPEndPoint, and System.Net.CookieContainer
+  package_url: https://www.nuget.org/System.Net.Primitives
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12985/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: System.Runtime.InteropServices
+  description: Provides types that support COM interop and platform invoke services
+  package_url: https://www.nuget.org/System.Runtime.InteropServices
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12908/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Tomáš Filip
+  last_updated_on: 2022-10-05 23:19:06.000000000 Z
+- name: System.Runtime.Serialization.Primitives
+  description: Provides common types, including System.Runtime.Serialization.DataContractAttribute,
+    for libraries that support data contract serialization
+  package_url: https://www.nuget.org/System.Runtime.Serialization.Primitives
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12913/default_d21793a7ac64bcdc81c7a16ad33374ffa00fa50d.png
+  detection_source_url: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Glenn
+  last_updated_on: 2021-11-02 22:20:56.000000000 Z
+- name: System.Text.Encoding.Extensions
+  description: Provides support for specific encodings, including ASCII, UTF-7, UTF-8,
+    UTF-16, and UTF-32
+  package_url: https://www.nuget.org/System.Text.Encoding.Extensions
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12973/default_3bbc310dbe28a83b0e799743dc3f0afaa77665c9.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-12-02 00:07:56.000000000 Z
+- name: System.Threading
+  description: Provides the fundamental synchronization primitives, including System.Threading.Monitor
+    and System.Threading.Mutex, that are required when writing asynchronous code
+  package_url: https://www.nuget.org/System.Threading
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12861/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: src/ReactiveUI/ReactiveUI.csproj
+  detection_source: src/ReactiveUI/ReactiveUI.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2021-08-21 14:29:34.000000000 Z
+- name: Xamarin.Android.Support.Animated.Vector.Drawable
+  description: Xamarin.Android bindings for Android Support Library - animated-vector-drawable
+  package_url: https://www.nuget.org/Xamarin.Android.Support.Animated.Vector.Drawable
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13156/default_ec099cd91036217b675f6c04acb0ff8c567a41ed.png
+  detection_source: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: Xamarin.Android.Support.Vector.Drawable
+  description: Xamarin.Android bindings for Android Support Library - support-vector-drawable
+  package_url: https://www.nuget.org/Xamarin.Android.Support.Vector.Drawable
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13152/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: Xamarin.Android.Support.v4
+  description: Xamarin.Android bindings for Android Support Library - support-v4
+  package_url: https://www.nuget.org/Xamarin.Android.Support.v4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12934/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: Xamarin.Android.Support.v7.AppCompat
+  description: Xamarin.Android bindings for Android Support Library - appcompat-v7
+  package_url: https://www.nuget.org/Xamarin.Android.Support.v7.AppCompat
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12949/default_85d1877c90581261989cc5e05023faec547467b3.png
+  detection_source: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: Xamarin.Android.Support.v7.RecyclerView
+  description: Xamarin.Android bindings for Android Support Library - recyclerview-v7
+  package_url: https://www.nuget.org/Xamarin.Android.Support.v7.RecyclerView
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13081/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source: src/ReactiveUI.AndroidSupport/ReactiveUI.AndroidSupport.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-12-07 01:45:22.000000000 Z
+- name: Xamarin.AndroidX.Core
+  description: Xamarin.Android bindings for AndroidX - core
+  package_url: https://www.nuget.org/Xamarin.AndroidX.Core
+  version: 1.9.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13749/default_4056691b3b7b6737ac5df5ff7e15081a39ed930f.png
+  detection_source_url: src/ReactiveUI.AndroidX/ReactiveUI.AndroidX.csproj
+  detection_source: src/ReactiveUI.AndroidX/ReactiveUI.AndroidX.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2023-02-18 17:49:29.000000000 Z
+- name: Xamarin.Forms
+  description: Build native UIs for iOS
+  package_url: https://www.nuget.org/Xamarin.Forms
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12873/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: src/ReactiveUI.XamForms/ReactiveUI.XamForms.csproj
+  detection_source: src/ReactiveUI.XamForms/ReactiveUI.XamForms.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-01 06:20:28.000000000 Z
+- name: Xamarin.Google.Android.Material
+  description: Xamarin.Android bindings for AndroidX - material
+  package_url: https://www.nuget.org/Xamarin.Google.Android.Material
+  version: 1.7.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14410/default_c3ae99d1628fe988c02a26ac02c562eac5962c0d.png
+  detection_source_url: src/ReactiveUI.AndroidX/ReactiveUI.AndroidX.csproj
+  detection_source: src/ReactiveUI.AndroidX/ReactiveUI.AndroidX.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2023-02-18 17:49:29.000000000 Z
+- name: xunit.runner.console
+  description: Console runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.console
+  version: 2.4.2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14627/default_dface933b5d8f015d323c0d4d738f7853715afbe.png
+  detection_source_url: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  detection_source: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-09-02 10:21:57.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  detection_source: integrationtests/IntegrationTests.Shared.Tests/IntegrationTests.Shared.Tests.csproj
+  last_updated_by: Chris Pulman
+  last_updated_on: 2022-09-02 10:21:57.000000000 Z
